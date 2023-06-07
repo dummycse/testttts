@@ -1,0 +1,30 @@
+package:
+  name: "testttts"
+  version: "0.1.0"
+
+source:
+  git_rev: v0.1.0
+  git_url: https://github.com/dummycse/testttts
+
+requirements:
+  host:
+    - python
+    - setuptools
+  build:
+    - python
+  run:
+    - python
+    - pandas
+    - jupyter
+    - requests
+
+about:
+  home: https://github.com/dummycse/testttts
+  license: MIT
+  license_familY: MIT
+  license_file: LICENSE
+  summary: "test analysis analysis"
+
+extra:
+  recipe-maintainers:
+    - dummycse
